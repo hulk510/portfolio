@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
-  "type": "module",
   "version": "0.0.1",
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
@@ -11,5 +11,13 @@
   },
   "dependencies": {
     "astro": "^2.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "@typescript-eslint/parser": "^5.56.0",
+    "eslint": "^8.36.0",
+    "eslint-plugin-astro": "^0.26.1",
+    "prettier": "^2.8.6",
+    "prettier-plugin-astro": "^0.8.0"
   }
 }
